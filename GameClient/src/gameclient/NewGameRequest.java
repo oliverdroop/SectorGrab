@@ -1,0 +1,1 @@
+package gameclient;public class NewGameRequest {    private ClientConnector ClientConnector;    public NewGameRequest(ClientConnector cc) {        super();        this.ClientConnector = cc;    }    public void Deserialize(byte[] bufr) {        //ByteBuffer bb = ByteBuffer.wrap(new byte[] { bufr[2], bufr[3], bufr[4], bufr[5] });        //int i = bb.getInt();    }}
